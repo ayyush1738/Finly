@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { useState, useEffect } from "react";
 import LoaderWrapper from "@/components/loaders/loaderWrapper";
 
 export default function Home() {
