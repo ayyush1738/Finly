@@ -70,13 +70,13 @@ export default function MainLoader() {
             </motion.div>
 
             <motion.div
-                className="absolute flex items-center justify-center p-20"
+                className="absolute flex items-center justify-center bg-black/20 backdrop-blur-md h-full w-full"
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 7 }}
+                transition={{ duration: 0.6, delay: 8 }}
             >
                 <TextGenerateEffect
-                    className="text-black text-8xl bg-transparent"
+                    className="text-black text-8xl"
                     words="Let's Find Out"
                 />
             </motion.div>
